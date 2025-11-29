@@ -1,29 +1,29 @@
 # StevenBlack Blocklist
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts		
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 # StevenBlack Fake News Blocklist
-https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts		
+https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts
 
 # Hagezi Pro Plus Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt		
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
 
 # Hagezi Most Abused TLDs Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt		
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt
 
 # Hagezi Gambling Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt		
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
 
 # Hagezi Badware Blocker
-https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt		
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
 
 # Hagezi TIF Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt		
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 
 # OSID Big Blocklist
-https://big.oisd.nl		
+https://big.oisd.nl
 
 # URLHaus Hostfile Blacklist (Malware)
-https://urlhaus.abuse.ch/downloads/hostfile/		
+https://urlhaus.abuse.ch/downloads/hostfile/
 
 # UBlock Badware Blocklist
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
@@ -38,25 +38,22 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist		
 
 # Prigent Crypto Blocklist
-https://v.firebog.net/hosts/Prigent-Crypto.txt		
-
-
+https://v.firebog.net/hosts/Prigent-Crypto.txt
 
 # Frogeye First-Party Trackers (CNAME Cloaking)
-https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt		
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
 # Disconnect Simple Ads Blocklist
-https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt		
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 # Disconnect Malvertising Blocklist
-https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt		
+https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
 
 # BlocklistProject Crypto Blocklist
-https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt		
+https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
 
 # AdGuard SmartTV Blocklist
-https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt		
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
 
-https://adaway.org/hosts.txt		
-AdAway Hosts Blocklist
-Default
+# AdAway Hosts Blocklist
+https://adaway.org/hosts.txt
