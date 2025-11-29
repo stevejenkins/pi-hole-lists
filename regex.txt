@@ -1,0 +1,97 @@
+### REGEX DENY ###
+^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]
+^(.+[-_.])??ad[sxv]?[0-9]*[-_.]
+^(.+[-_.])??telemetry[-.]
+^(.+[-_.])??xn--
+^adim(age|g)s?[0-9]*[-_.]
+^adtrack(er|ing)?[0-9]*[-.]
+^advert(s|is(ing|ements?))?[0-9]*[-_.]
+^aff(iliat(es?|ion))?[-.]
+^analytics?[-.]
+^banners?[-.]
+^beacons?[0-9]*[-.]
+^count(ers?)?[0-9]*[-.]
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[-.]
+# ^track(ers?|ing)?[0-9]*[-.]
+# ^traff(ic)?[-.] # Disabled to allow many podcasts
+^(ads|logs|cloudservices).roku.com$ # Blocks Roku ads
+
+### REGEX ALLOW (includes Wildcard Domains) ###
+
+# Allow Google Meet
+^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$
+
+# Allow Hulu to stream properly
+^ads-[a-z]-darwin\.hulustream\.com$
+
+# Allow Google Ad Clicks
+(\.|^)google(adservices|tagmanager)\.com$
+
+# Allow Wondery Podcasts
+^(ext|web)\.chtbl\.com$
+
+# Allow Dynamic DNS
+^ipv(4|6)\.nsupdate\.info$
+
+# Allow UI Connectivity Monitor
+^(ping|trace\.svc)\.ui\.com$
+
+# Allow Megaphone podcasts
+^traffic\.(|va[0-9]\.)megaphone\.(fm|cloud)$
+
+# Allow Etsy
+(\.|^)email\.etsy\.com$
+
+# Allow for Online Games
+(\.|^)rockstargames\.com$
+(\.|^)unity3d\.com$
+(\.|^)steam\.com$
+(\.|^)liftoff\.io$
+client.rave-api.com
+
+# Allow CrossFit Affiliate Area
+(\.|^)crossfit\.com$
+
+### EXACT ALLOW ###
+# Allow for Online Games
+client.rave-api.com
+
+# Allow Dynamic DNS
+freedns.afraid.org
+
+# Allow  USPS tracking
+track.shipstation.com
+
+# Allow for Hulu
+ib.huluim.com
+ads-fa-darwin.hulustream.com
+	
+# Allow Amazon Affiliates
+affiliate-program.amazon.com
+
+# Allow Radiooooo
+track.radiooooo.com
+
+# Allow Xbox Live
+arc.msn.com
+
+# Allow for Podcasts
+traffic.libsyn.com
+
+# Allow FreeGeoIP
+freegeoip.app
+
+# Allow Paramount/CBS
+doppler-reporting.cbsivideo.com
+
+# Allow Spotify
+wl.spotify.com
+
+# Allow for Plex Metadata
+gravatar.com
+thetvdb.com
+themoviedb.com
+
+# Enable OfferUp Share
+api2.branch.io
