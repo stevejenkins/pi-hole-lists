@@ -1,32 +1,8 @@
-# URLHaus Hostfile Blacklist (Malware)
-https://urlhaus.abuse.ch/downloads/hostfile/		
-
-# UBlock Badware Blocklist
-https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
-
-# ThreatFox Blocklist (Malware)
-https://threatfox.abuse.ch/downloads/hostfile/		
-
-# StevenBlack Fake News Blocklist
-https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts		
-
 # StevenBlack Blocklist
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts		
 
-# RPiList Malware Blocklist
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware		
-
-# RPiLIst EasyList Extended Blocklist
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist		
-
-# Prigent Crypto Blocklist
-https://v.firebog.net/hosts/Prigent-Crypto.txt		
-
-# OSID Big Blocklist
-https://big.oisd.nl		
-
-# Hagezi TIF Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt		
+# StevenBlack Fake News Blocklist
+https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts		
 
 # Hagezi Pro Plus Blocklist
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt		
@@ -40,8 +16,31 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
 # Hagezi Badware Blocker
 https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt		
 
-# Hagezi Allowlist Referral
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral-native.txt		
+# Hagezi TIF Blocklist
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt		
+
+# OSID Big Blocklist
+https://big.oisd.nl		
+
+# URLHaus Hostfile Blacklist (Malware)
+https://urlhaus.abuse.ch/downloads/hostfile/		
+
+# UBlock Badware Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
+
+# ThreatFox Blocklist (Malware)
+https://threatfox.abuse.ch/downloads/hostfile/		
+
+# RPiList Malware Blocklist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware		
+
+# RPiLIst EasyList Extended Blocklist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist		
+
+# Prigent Crypto Blocklist
+https://v.firebog.net/hosts/Prigent-Crypto.txt		
+
+
 
 # Frogeye First-Party Trackers (CNAME Cloaking)
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt		
