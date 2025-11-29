@@ -1,3 +1,5 @@
+![My Pi-hole Dashboard Stats](https://github.com/stevejenkins/pi-hole-lists/blob/main/dashboard.jpg?raw=true)
+
 ## My Personal Pi-hole Lists ##
 This repo contains the combination of blocklists, whitelists, and regular expressions I use to configure my Pi-hole servers:
 
