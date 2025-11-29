@@ -1,0 +1,2 @@
+# Hagezi Allowlist Referral
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral-native.txt
