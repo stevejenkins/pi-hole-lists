@@ -1,4 +1,4 @@
-# PI-HOLE WHITELISTS
+# PI-HOLE REGEX
 # From stevejenkins Pi-hole LoL (List of Lists)
 # https://github.com/stevejenkins/pi-hole-lists/
 
