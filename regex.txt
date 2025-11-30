@@ -1,4 +1,9 @@
+# PI-HOLE WHITELISTS
+# From stevejenkins Pi-hole LoL (List of Lists)
+# https://github.com/stevejenkins/pi-hole-lists/
+
 ### REGEX DENY ###
+# Based on http://github.com/mmotti/pihole-regex
 ^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
 ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
 ^(.+[_.-])?telemetry[_.-]
@@ -18,6 +23,7 @@
 # ^traff(ic)?[-.] # Disabled to allow many podcasts
 
 ### REGEX ALLOW (includes Wildcard Domains) ###
+# Whitelisting of specific wildcard domains based on your household needs
 
 # Allow Google Meet
 ^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$
@@ -54,6 +60,8 @@ client.rave-api.com
 (\.|^)crossfit\.com$
 
 ### EXACT ALLOW ###
+# Whitelisting of specific FQDNs based on your household needs
+
 # Allow for Online Games
 client.rave-api.com
 
