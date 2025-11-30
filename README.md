@@ -15,7 +15,7 @@ My goal isn't to have as high a number of blocked hosts as possible. Instead, it
 # How / Why I Chose These Lists
 This particular selection of lists and regex statements are the result of years of trial and error across multiple residential networks. My goal isn't to have as high a number of blocked hosts as possible. Instead, the goal is optimize performance while still passing the "family test" where people aren't constantly complaining about the Pi-hole blocking them. 
 
-- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from StevenBlack, Hegezi, UBlock, URLHaus, OSID, and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting.
+- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from [StevenBlack](https://github.com/StevenBlack/hosts), [Hegezi](https://github.com/hagezi/dns-blocklists), [UBlockOrigin](https://github.com/uBlockOrigin/uAssets), [URLHaus](https://urlhaus.abuse.ch/), [OSID](https://oisd.nl/), and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting.
 
 - [Whitelists](https://github.com/stevejenkins/pi-hole-lists/blob/main/whitelists.txt): So far, I'm only using one whitelist: Hegezi's affiliate & tracking referral links that enables links in emails and search results, etc. No need to include this list if those types of referral links aren't important in your household.
   
