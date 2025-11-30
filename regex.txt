@@ -13,9 +13,9 @@
 ^mads\.
 ^pixels?[-.]
 ^stat(s|istics)?[0-9]*[_.-]
-# ^track(ers?|ing)?[0-9]*[-.]
-# ^traff(ic)?[-.] # Disabled to allow many podcasts
 ^(ads|logs|cloudservices).roku.com$ # Blocks Roku ads
+# ^track(ers?|ing)?[0-9]*[-.] # Disabled to allow many podcasts
+# ^traff(ic)?[-.] # Disabled to allow many podcasts
 
 ### REGEX ALLOW (includes Wildcard Domains) ###
 
