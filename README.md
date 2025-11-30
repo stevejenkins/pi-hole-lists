@@ -21,6 +21,9 @@ This particular selection of lists and regex statements are the result of years 
   
 - [Regex](https://github.com/stevejenkins/pi-hole-lists/blob/main/regex.txt) The regular expressions list is divided into two sections: DENY and ALLOW. The DENY section uses regular expressions to block tracking domains that include words like 'beacon" or "counter" or "affiliates." The original version of this list also blocked domains including "trackers" and "traffic" but that blocked playback of a number of podcasts so those two entries are commented out. The entires in the ALLOW section are individually commented to explain their use. Most are in place to reduce false positives from the DENY regex, but also to whitelist some specific domains that my household accesses frequently.
 
+# How to Use
+The blocklists and whitelists can be entered one at a time in the **Subscribed lists group management** section of your Pi-hole interface. The regular expressions must be entered individually in the **Domain management** section. I recommend entering comments for each list where possible so you can refer to them later. 
+
 Use at your own risk.
 
 More information on the Pi-hole application and how to use these files at: https://pi-hole.net/
