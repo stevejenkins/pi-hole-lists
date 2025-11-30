@@ -1,2 +1,6 @@
+# PI-HOLE WHITELISTS
+# From stevejenkins Pi-hole LoL (List of Lists)
+# https://github.com/stevejenkins/pi-hole-lists/
+
 # Hagezi Allowlist Referral
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral-native.txt
