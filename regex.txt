@@ -101,5 +101,8 @@ gravatar.com
 thetvdb.com
 themoviedb.com
 
-# Enable OfferUp Share
+# Allow OfferUp Share
 api2.branch.io
+
+# Allow Samsung TV App Store
+osb-apps-v2.samsungqbe.com
