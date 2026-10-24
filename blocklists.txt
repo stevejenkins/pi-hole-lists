@@ -8,6 +8,36 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 # StevenBlack Fake News Blocklist
 https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts
 
+# IT-Limitless Anti-Advertiser 
+https://itlurl.de/blocklists/itl-advertising
+
+# IT-Limitless Anti-Porn
+https://itlurl.de/blocklists/itl-aporn
+
+# IT-Limitless Lists with expired Domains, which are used for attacks: 
+https://itlurl.de/blocklists/itl-expireddomain
+
+# IT-Limitless List with untrustworthy sellers and shops
+https://itlurl.de/blocklists/itl-fakeshop
+
+# IT-Limitless with hacked email-domains, that are used for spam and phishing
+https://itlurl.de/blocklists/itl-hackedemaildomains
+
+# IT-Limitless Malicious domains
+https://itlurl.de/blocklists/itl-malicious
+
+# IT-Limitless Advertisers that server malware
+https://itlurl.de/blocklists/itl-malvertising
+
+# IT-Limitless against Phishing
+https://itlurl.de/blocklists/itl-phishing
+
+# IT-Limitless against SPAM
+https://itlurl.de/blocklists/itl-spam
+
+# IT-Limitless against trackers
+https://itlurl.de/blocklists/itl-tracking
+
 # Hagezi Pro Plus Blocklist
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
 
