@@ -27,13 +27,13 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 https://big.oisd.nl
 
 # URLHaus Hostfile Blacklist (Malware)
-https://urlhaus.abuse.ch/downloads/hostfile/
+https://urlhaus-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
 
 # UBlock Badware Blocklist
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
 
 # ThreatFox Blocklist (Malware)
-https://threatfox.abuse.ch/downloads/hostfile/		
+https://threatfox-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
 
 # RPiList Malware Blocklist
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware		
