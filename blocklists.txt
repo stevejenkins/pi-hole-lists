@@ -26,13 +26,13 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 # OSID Big Blocklist
 https://big.oisd.nl
 
-# URLHaus Hostfile Blacklist (Malware)
+# URLHaus Hostfile Blacklist (Malware) - AuthKey required from https://auth.abuse.ch/
 https://urlhaus-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
 
 # UBlock Badware Blocklist
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
 
-# ThreatFox Blocklist (Malware)
+# ThreatFox Blocklist (Malware) - AuthKey required from https://auth.abuse.ch/
 https://threatfox-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
 
 # RPiList Malware Blocklist
