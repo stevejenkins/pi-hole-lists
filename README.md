@@ -22,7 +22,11 @@ This particular selection of lists and regex statements are the result of years 
 - [Regex](https://github.com/stevejenkins/pi-hole-lists/blob/main/regex.txt): My regular expressions list is based on [Mmotti's Pi-hole Regex](https://github.com/mmotti/pihole-regex/) and is divided into three sections: REGEX DENY, REGEX ALLOW, and EXACT ALLOW. The REGEX DENY section uses regular expressions to block tracking domains that include words like 'beacon" or "counter" or "affiliates." The original version of this list also blocked domains including "trackers" and "traffic" but that blocked playback of a number of podcasts so those two entries are commented out. The entries in the REGEX ALLOW and the EXACT ALLOW sections are individually commented to explain their use. Most are in place to reduce false positives from the DENY regex entries, but also to whitelist some specific domains that my household accesses frequently.
 
 # How to Use
-The blocklists and whitelists can be entered one at a time in the **Subscribed lists group management** section of your Pi-hole interface. The regular expressions must be entered individually in the **Domain management** section. I recommend entering comments for each list where possible so you can refer to them later. 
+The blocklists and whitelists can be entered one at a time in the **Subscribed lists group management** section of your Pi-hole interface.
+
+Two of the blocklists I recommmend (**URLHaus** and **ThreatFox**) require a free Authorization Key from [abuse.ch](https://auth.abuse.ch/). You'll need to include your unique AuthKey when you enter the blocklist URL in your Pi-hole UI.
+
+The regular expressions must be entered individually in the **Domain management** section. I recommend entering comments for each list where possible so you can refer to them later. 
 
 Use at your own risk.
 
