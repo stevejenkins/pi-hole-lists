@@ -2,56 +2,29 @@
 # From stevejenkins Pi-hole LoL (List of Lists)
 # https://github.com/stevejenkins/pi-hole-lists/
 
-# StevenBlack Blocklist
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# Hagezi TIF Blocklist
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 
-# StevenBlack Fake News Blocklist
-https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts
-
-# Hagezi Pro Plus Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
-
-# Hagezi Most Abused TLDs Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt
+# RPiList Malware Blocklist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
 # Hagezi Gambling Blocklist
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
 
-# Hagezi Badware Blocker
-https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
+# RPiLIst EasyList Extended Blocklist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 
-# Hagezi TIF Blocklist
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+# Hagezi Pro Plus Blocklist
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
+
+# StevenBlack Blocklist
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 # OSID Big Blocklist
-https://big.oisd.nl
-
-# URLHaus Hostfile Blacklist (Malware) - AuthKey required from https://auth.abuse.ch/
-https://urlhaus-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
-
-# UBlock Badware Blocklist
-https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt		
+https://big.oisd.nl	
 
 # ThreatFox Blocklist (Malware) - AuthKey required from https://auth.abuse.ch/
 https://threatfox-api.abuse.ch/v2/files/exports/[AUTHKEY_HERE]/hostfile.txt
 
-# RPiList Malware Blocklist
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware		
-
-# RPiLIst EasyList Extended Blocklist
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist		
-
-# Prigent Crypto Blocklist
-https://v.firebog.net/hosts/Prigent-Crypto.txt
-
 # Frogeye First-Party Trackers (CNAME Cloaking)
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
-
-# Disconnect Simple Ads Blocklist
-https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-
-# BlocklistProject Crypto Blocklist
-https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
-
-# AdGuard SmartTV Blocklist
-https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
