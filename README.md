@@ -13,9 +13,9 @@ My goal isn't to have as high a number of blocked hosts as possible. Instead, it
 - [`regex.txt`](https://github.com/stevejenkins/pi-hole-lists/blob/main/regex.txt) - The regular expressions I use to both block and allow traffic, based on patterns in their name (including wildcard domains)
 
 # How / Why I Chose These Lists
-This particular selection of lists and regex statements are the result of years of trial and error across multiple residential networks. My goal isn't to have as high a number of blocked hosts as possible. Instead, the goal is optimize performance while still passing the "family test" where people aren't constantly complaining about the Pi-hole blocking them. 
+This particular selection of lists and regex statements are the result of years of trial and error across multiple residential networks. My goal isn't to have as high a number of blocked hosts as possible. Instead, the goal is optimize performance while still passing the "family test" where people aren't constantly complaining about the Pi-hole blocking them.
 
-- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from [StevenBlack](https://github.com/StevenBlack/hosts), [Hagezi](https://github.com/hagezi/dns-blocklists), [UBlockOrigin](https://github.com/uBlockOrigin/uAssets), [URLHaus](https://urlhaus.abuse.ch/), [OISD](https://oisd.nl/), and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting.
+- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from [StevenBlack](https://github.com/StevenBlack/hosts), [Hagezi](https://github.com/hagezi/dns-blocklists), [UBlockOrigin](https://github.com/uBlockOrigin/uAssets), [URLHaus](https://urlhaus.abuse.ch/), [OISD](https://oisd.nl/), and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting. I feed a larger number of well-known blocklists (approximately 20) into a tool I developed called [blocklist-insight](https://github.com/stevejenkins/blocklist-insight). It analyses the blocklists then uses the Greedy Set-Cover Solver to recommend the smallest number of lists you can use to achieve the maximum coverage of blocked hosts.
 
 - [Whitelists](https://github.com/stevejenkins/pi-hole-lists/blob/main/whitelists.txt): So far, I'm only using one whitelist: [Hagezi](https://github.com/hagezi/dns-blocklists)'s affiliate & tracking referral links that enables links in emails and search results, etc. No need to include this list if those types of referral links aren't important in your household.
   
@@ -24,7 +24,7 @@ This particular selection of lists and regex statements are the result of years 
 # How to Use
 The blocklists and whitelists can be entered one at a time in the **Subscribed lists group management** section of your Pi-hole interface.
 
-Two of the blocklists I recommmend (**URLHaus** and **ThreatFox**) require a free Authorization Key from [abuse.ch](https://auth.abuse.ch/). You'll need to include your unique AuthKey when you enter the blocklist URL in your Pi-hole UI.
+One of the blocklists I recommmend, **ThreatFox**, requires a free Authorization Key from [abuse.ch](https://auth.abuse.ch/). You'll need to include your unique AuthKey when you enter the blocklist URL in your Pi-hole UI.
 
 The regular expressions must be entered individually in the **Domain management** section. I recommend entering comments for each list where possible so you can refer to them later. 
 
