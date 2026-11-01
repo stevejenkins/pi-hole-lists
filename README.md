@@ -1,7 +1,9 @@
 ![My Pi-hole Dashboard Stats](https://github.com/stevejenkins/pi-hole-lists/blob/main/dashboard.jpg?raw=true)
 
 # My Personal Pi-hole LoL (List of Lists)
-This is not a blocklist. Rather, it's a list of the blocklists, whitelists, and regular expressions I use to configure my Pi-hole servers. A "list of lists," if you will. Feel free to browse through my choices, research them, then decide which to add to your own. Or not. This combination works extremely well for me and I hope it can also work well for you.
+**This is not a blocklist.**
+
+Rather, it's a list of the blocklists, whitelists, and regular expressions I use to configure my Pi-hole servers. A "list of lists," if you will. Feel free to browse through my choices, research them, then decide which to add to your own. Or not. This combination works extremely well for me and I hope it can also work well for you.
 
 "Which blocklists do you use?" is a common recurring question on Reddit and other Pi-hole discussion areas. Another purpose of this repo is to have somewhere quick and easy to point to as an answer to that question.
 
@@ -15,7 +17,9 @@ My goal isn't to have as high a number of blocked hosts as possible. Instead, it
 # How / Why I Chose These Lists
 This particular selection of lists and regex statements are the result of years of trial and error across multiple residential networks. My goal isn't to have as high a number of blocked hosts as possible. Instead, the goal is optimize performance while still passing the "family test" where people aren't constantly complaining about the Pi-hole blocking them.
 
-- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from [StevenBlack](https://github.com/StevenBlack/hosts), [Hagezi](https://github.com/hagezi/dns-blocklists), [UBlockOrigin](https://github.com/uBlockOrigin/uAssets), [URLHaus](https://urlhaus.abuse.ch/), [OISD](https://oisd.nl/), and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting. I feed a larger number of well-known blocklists (approximately 20) into a tool I developed called [blocklist-insight](https://github.com/stevejenkins/blocklist-insight). It analyses the blocklists then uses the Greedy Set-Cover Solver to recommend the smallest number of lists you can use to achieve the maximum coverage of blocked hosts.
+I also do some automated analysis of a larger number of blocklists using a Python script I wrote called [blocklist-insight](https://github.com/stevejenkins/blocklist-insight). It uses the **Greedy Set-Cover Solver** to recommend the smallest number of lists you can use to achieve the maximum coverage of blocked hosts. The results I used for my current list recommendations are included here as [`optimal_lists.md`](https://github.com/stevejenkins/pi-hole-lists/blob/main/optimal_lists.md).
+
+- [Blocklists](https://github.com/stevejenkins/pi-hole-lists/blob/main/blocklists.txt): The "heavy lifting" is performed by well-known blocklists from [StevenBlack](https://github.com/StevenBlack/hosts), [Hagezi](https://github.com/hagezi/dns-blocklists), [UBlockOrigin](https://github.com/uBlockOrigin/uAssets), [URLHaus](https://urlhaus.abuse.ch/), [OISD](https://oisd.nl/), and others. I've chosen lists with a slightly higher chance of false positives, but then mitigate the impact with some whitelisting. I feed a larger number of well-known blocklists (approximately 20) into a tool I developed 
 
 - [Whitelists](https://github.com/stevejenkins/pi-hole-lists/blob/main/whitelists.txt): So far, I'm only using one whitelist: [Hagezi](https://github.com/hagezi/dns-blocklists)'s affiliate & tracking referral links that enables links in emails and search results, etc. No need to include this list if those types of referral links aren't important in your household.
   
