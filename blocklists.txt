@@ -50,14 +50,8 @@ https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 # Disconnect Simple Ads Blocklist
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
-# Disconnect Malvertising Blocklist
-https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
-
 # BlocklistProject Crypto Blocklist
 https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
 
 # AdGuard SmartTV Blocklist
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
-
-# AdAway Hosts Blocklist
-https://adaway.org/hosts.txt
